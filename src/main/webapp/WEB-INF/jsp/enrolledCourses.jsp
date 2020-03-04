@@ -60,7 +60,7 @@
 
 <br><br>
 
-<a href="#">Download in PDF</a>
+<a href="generatePdf">Download in PDF</a>
 
 <br><br>
 

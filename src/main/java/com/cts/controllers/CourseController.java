@@ -42,8 +42,7 @@ public class CourseController {
 			
 			binder.registerCustomEditor(Date.class,cde);
 			
-			System.out.println("dsddsds");
-			
+		
 		
 		}
 

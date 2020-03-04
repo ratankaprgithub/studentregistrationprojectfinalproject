@@ -130,6 +130,19 @@ public class StudentController {
 		return "generateExcel";
 	}
 	
+	@GetMapping("/generatePdf")
+	public String generatepdf(Model m,HttpSession session) {
+		
+		List<CourseBean> clist=(List<CourseBean>)session.getAttribute("courses");
+		
+		m.addAttribute("courses", clist);
+		
+		
+		return "generatePdf";
+	}
+	
+	
+	
 	
 	
 }
